@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Anagha Lokre Portfolio</title>
+		
+		<link rel="stylesheet" href="css/pf_global.css" type="text/css" />
+		
+		
+		<link rel="stylesheet" href="css/bootstrap-responsive.css" type="text/css" />
+		<link rel="stylesheet" href="css/bootstrap-responsive.min.css" type="text/css" />
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		
+		
+		<script src="js/jquery-1.9.1.min.js"></script>
+		<script src="js/jquery.validate.js"></script>
+		
+		
+		<script src="bootstrap/js/bootstrap.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Fjord+One' rel='stylesheet' type='text/css'>
+		
+		
+
+	</head>
+	
+<body >
+
+
+<div class='ribbon' id="header_nav">
+	<a href="index.html"><img src="images/logo_block.png" id="logo" alt="sign" /></a>
+    <a href='#' id="showLeft"><span>aboutME</span></a>
+    <a href='#' id="showBottom"><span>myWork</span></a>
+    <a href='#' id="showTop"><span>connectME</span></a>
+   </div><br/>
+	
+	
+	<h3 ><label id="info"><center> Hello..!<br/> I am Anagha,<br/>I’m a Front-End Developer in Boston
+	 <br/>Passionate about Web 2.0,Responsive Design, User Experience, Mobile <br/> and <br/>HTML5/CSS3. <center></label></h3> 
+	 <!-- slider pages strat-->
+	 
+	 <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+	  <p class="about_me"><img src="images/anagha.png" alt="anagha"></p> 
+	   
+			
+	 </nav>
+	
+	
+	<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+			<h3> 
+			   Who am I ..?</h3> 
+			   
+			<article>I am User Interface Developer.<br/>My skills include HTML5, CSS3, jQuery, JSP, Bootstrap, Web 2.0,
+			 Responsive Design, and User Experience Design.<br/></>I like to learn new things and keep myself up to date <br/>with web world!<br/>
+ 			When I’m not working, my life revolves around<br/> my family & friends…. </article>
+			
+			
+		</nav> 
+	
+		<nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-bottom" id="cbp-spmenu-s4">
+			<label>My Sample work </label>
+			
+			<p><a class="name" href="http://autoinsureweb.appspot.com/" target="_blank" >Autoinsure</a>
+			<a href="http://autoinsureweb.appspot.com/" target="_blank" ><img src="images/work_sample1.png" alt="sample"></a>  	
+			</p>
+			<p><a class="name" href="http://autoinsureweb.appspot.com/register.html" target="_blank" >Registration</a>
+			<a href="http://autoinsureweb.appspot.com/register.html" target="_blank" ><img src="images/login.png" alt="sample"></a>  	
+			</p>
+			<p><a class="name" href="http://autoinsureweb.appspot.com/quote.html" target="_blank" >GetQuote</a>
+			<a href="http://autoinsureweb.appspot.com/quote.html" target="_blank" ><img src="images/register.png" alt="sample"></a>  	
+			</p>
+			
+			
+		
+		</nav>
+		
+		<nav class="cbp-spmenu cbp-spmenu-horizontal cbp-spmenu-bottom" id="cbp-spmenu-s3">
+			
+			<div class="contact">
+					<p>Find me at :</p>
+						<div class=" actions-list">
+						<a class="action-item facebook" href="https://www.facebook.com/anaghalokre" target="_blank"></a>
+						<a class="action-item google" href="https://plus.google.com/114133073223602045058/about" target="_blank"></a>
+						<a class="action-item linkedin" href="http://www.linkedin.com/pub/anagha-lokre/42/a9a/958" target="_blank"></a>
+						<a  class="action-item twitter" href="https://twitter.com/" target="_blank"></a>
+					</div>
+					
+					<p>Inbox me at :</p>
+						<a class="email" href="mailto:anagha.lokre@gmail.com">anagha.lokre@gmail.com</a>
+						
+					<p> Say Hello:</p> 
+					<label class="phone">(646) 753-1859</label>
+			   
+				</div>	
+					
+		</nav>
+	
+l
+
+	<footer id="footer">
+
+	
+
+			<small><a  href="http://anaghalokreportfolio.appspot.com">CopyRight © 2014 Anagha Lokre</a></small>
+			
+						
+
+
+	
+
+</footer>
+
+
+<!-- Classie - class helper functions by @desandro https://github.com/desandro/classie -->
+<script src="js/classie.js"></script>
+		<script>
+			var
+			
+				menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+				showRight = document.getElementById( 'showRigth' ),
+				
+				menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
+				showLeft = document.getElementById( 'showLeft' ),
+				
+				menuBottom = document.getElementById( 'cbp-spmenu-s4' ),
+				showBottom = document.getElementById( 'showBottom' ),
+				
+				menuTop = document.getElementById( 'cbp-spmenu-s3' ),
+				showTop = document.getElementById( 'showTop' ),
+				
+				
+				
+				
+				body = document.body;
+			
+			showLeft.onclick = function() {
+				classie.toggle( menuLeft, 'cbp-spmenu-open' );
+				classie.toggle( menuRight, 'cbp-spmenu-open' );
+				
+				classie.remove( menuBottom, 'cbp-spmenu-open' ); 
+				classie.remove( menuTop, 'cbp-spmenu-open' );
+
+				
+			};
+			
+
+			
+			showBottom.onclick = function() {
+				
+				classie.toggle( menuBottom, 'cbp-spmenu-open' );
+				classie.remove( menuLeft, 'cbp-spmenu-open' ); 
+				classie.remove( menuRight, 'cbp-spmenu-open' );
+				classie.remove( menuTop, 'cbp-spmenu-open' );
+				
+			};
+			
+			showTop.onclick = function() {
+				
+				classie.toggle( menuTop, 'cbp-spmenu-open' );
+				classie.remove( menuBottom, 'cbp-spmenu-open' );
+				classie.remove( menuRight, 'cbp-spmenu-open' );
+				classie.remove( menuLeft, 'cbp-spmenu-open' );
+				
+			};
+			
+			
+			
+
+			
+		</script>
+		
+</body>
+</html>

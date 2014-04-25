@@ -1,0 +1,367 @@
+/* General styles for all menus */
+.cbp-spmenu {
+  
+	
+}
+
+ /* Vertical menu that slides from the left or right */
+ 
+
+ .cbp-spmenu .cbp-spmenu-vertical .cbp-spmenu-right{
+  
+  width:900px;
+  right:10px;
+ }
+
+
+
+/* Horizontal menu that slides from the top or bottom */
+ 
+.cbp-spmenu-top {
+    top: -150px;
+}
+ 
+.cbp-spmenu-bottom {
+    bottom: -150px;
+}
+ 
+.cbp-spmenu-top.cbp-spmenu-open {
+    top:0px;
+}
+ 
+.cbp-spmenu-bottom.cbp-spmenu-open {
+    bottom: 0px;
+}
+/* Push classes applied to the body */
+ 
+.cbp-spmenu-push {
+    overflow-x: hidden;
+    position: relative;
+    left: 0;
+}
+ 
+.cbp-spmenu-push-toright {
+    left: -440px;
+}
+ 
+.cbp-spmenu-push-toleft {
+    left: -440px;
+}
+ /* Transitions */
+ 
+.cbp-spmenu,
+.cbp-spmenu-push {
+  
+}
+ 
+/* Example media queries */
+ 
+@media screen and (max-width: 55.1875em){
+ 
+    .cbp-spmenu-horizontal {
+        font-size: 75%;
+        height: 110px;
+    }
+ 
+    .cbp-spmenu-top {
+        top: -110px;
+    }
+ 
+    .cbp-spmenu-bottom {
+        bottom: -110px;
+    }
+ 
+}
+ 
+@media screen and (max-height: 26.375em){
+ 
+    .cbp-spmenu-vertical {
+        font-size: 90%;
+        width: 190px;
+    }
+ 
+    .cbp-spmenu-left,
+    .cbp-spmenu-push-toleft {
+        left: -190px;
+    }
+ 
+    .cbp-spmenu-right {
+        right: -190px;
+    }
+ 
+    .cbp-spmenu-push-toright {
+        left: 190px;
+    }
+}
+
+li{
+list-style:none;
+display:block;
+}
+
+.cbp-spmenu {
+	position: fixed;
+	
+}
+
+.cbp-spmenu h3 {
+	color: #ffffff;
+	font-family: 'Fjord One', serif;
+	font-weight:bold;
+	font-size: 2.0em;
+	margin-top:3em;
+
+	
+	
+}
+
+.cbp-spmenu a {
+	
+	color:  #000000;
+	font-family: 'Fjord One', serif;
+	font-weight:bold;
+	font-size: 1.1em;
+	font-weight: 300;
+}
+
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	width: 740px;
+	height: 100%;
+	position:absolute;
+	top: 115px;
+	
+	
+	background:#999999;
+}
+
+.cbp-spmenu-vertical a {
+	border-bottom: 1px  #258ecd;
+	
+}
+
+.cbp-spmenu-horizontal {
+	background:#999999;
+	width: 1500px;
+	height: 530px;
+	left: 0;
+	z-index: 1000;
+	overflow: hidden;
+}
+
+.cbp-spmenu-horizontal h3 {
+	height: 100px;
+	width: 40px;
+	margin-left:3.4em;
+	font-family: 'Fjord One', serif;
+	font-size:1.5em;
+	margin-top:0.2em;
+}
+
+.cbp-spmenu-horizontal p{
+	
+	width: 300px;
+	
+	
+}
+ article{
+	font-family: 'Fjord One', serif;
+	color:#000000;
+	font-weight:bold;
+	font-size:22px;
+	margin-top:43px;
+	margin-left:33px;
+	line-height:1.8em;
+	
+
+}
+label{
+	font-family: 'Fjord One', serif;
+	color:#000000;
+	font-weight:bold;
+	font-size:22px;
+	margin-top:43px;
+	margin-left:33px;
+	line-height:0.2em;
+	
+
+}
+p
+{
+font-family: 'Fjord One', serif;
+	color:#ffffff;
+	font-size:1.5em;
+	font-weight:bold;
+	margin-top:3.2em;
+	line-height:0.8em;
+	
+}
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+	left: -740px;
+}
+
+.cbp-spmenu-right {
+	right: -740px;
+}
+
+.cbp-spmenu-left.cbp-spmenu-open {
+	left: 0px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+	right:0px;
+}
+
+/* Horizontal menu that slides from the top or bottom */
+
+.cbp-spmenu-top {
+
+	text-decoration:none;
+	width:1000px;
+	margin-left:15em;
+	
+}
+
+.cbp-spmenu-top {
+
+	top:-900px;
+}
+
+.cbp-spmenu-bottom {
+	bottom: -520px;
+}
+
+.cbp-spmenu-top.cbp-spmenu-open {
+	/*top: 0px;*/
+}
+
+.cbp-spmenu-bottom.cbp-spmenu-open {
+	bottom: 0px;
+}
+
+
+
+
+
+
+
+/* Example media queries 
+
+@media screen and (max-width: 55.1875em){
+
+	.cbp-spmenu-horizontal {
+		font-size: 75%;
+		height: 110px;
+	}
+
+	.cbp-spmenu-top {
+		/*top: -110px;*/
+	}
+
+	.cbp-spmenu-bottom {
+		bottom: -110px;
+	}
+
+}
+
+/*@media screen and (max-height: 26.375em){
+
+	.cbp-spmenu-vertical {
+		font-size:20px;
+		width: 390px;
+		
+	}
+
+	.cbp-spmenu-left,
+	.cbp-spmenu-push-toleft {
+		left: -190px;
+	}
+
+	.cbp-spmenu-right {
+		right: -390px;
+	}
+
+	.cbp-spmenu-push-toright {
+		left: 190px;
+	}
+}*/
+ a.name{
+	
+
+margin-left:2.6em;
+}
+
+#cbp-spmenu-s4 label {
+	
+color:#ffffff;
+margin-left:20.8em;
+
+
+}
+#cbp-spmenu-s4 p{
+	
+	display:inline-block;
+
+}
+#cbp-spmenu-s4 p
+{
+	
+	margin-top:0.2em;
+	margin-left:3.4em;
+	line-height:1.8em;
+}
+
+/**/
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+/* Example media queries */
+
+@media screen and (max-width: 55.1875em){
+
+	.cbp-spmenu-horizontal {
+		font-size: 75%;
+		height: 110px;
+	}
+
+	.cbp-spmenu-top {
+		top: -110px;
+	}
+
+	.cbp-spmenu-bottom {
+		bottom: -110px;
+	}
+
+}
+
+@media screen and (max-height: 26.375em){
+
+	.cbp-spmenu-vertical {
+		font-size: 90%;
+		width: 190px;
+	}
+
+	.cbp-spmenu-left,
+	.cbp-spmenu-push-toleft {
+		left: -190px;
+	}
+
+	.cbp-spmenu-right {
+		right: -190px;
+	}
+
+	.cbp-spmenu-push-toright {
+		left: 190px;
+	}
+}

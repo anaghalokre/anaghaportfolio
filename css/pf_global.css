@@ -1,0 +1,193 @@
+
+
+/*home.css background-image:url('../images/sunset_canvas.jpg');
+
+ background-color:#ffffff;*/
+ body{
+	overflow:hidden;
+	 margin: 0px; padding: 0px; width: 100%;
+	background-image: url('../images/boston_logo.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	
+	
+}
+#header_nav
+{
+	
+	background-color:#ff7b3a;
+	height:15%;
+	position:relative;
+}
+#logo
+{
+	
+	margin-left:42px;
+	padding:5px;
+	-webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* For Safari 3.1 to 6.0 */
+transition:width 2s, height 2s, transform 2s;
+	
+	
+}
+#logo:hover{
+	
+	-webkit-transform:rotate(360deg); /* Safari */
+transform:rotate(360deg);
+}
+
+.ribbon
+{   
+	
+	margin-top:0.8em;
+	
+	
+}
+
+.ribbon a:link, .ribbon a:visited { 
+    color: #ffffff;
+	font-family: 'Fjord One', serif;
+	text-decoration:none;
+    
+   
+    
+}
+
+.ribbon span {
+    line-height:3em;
+    padding-left:1px;
+    margin-top:1.0em;
+    margin-left:10.8em;
+   	display:inline-block;
+    
+    font-size:1.2em;
+    
+}
+
+.ribbon a:hover span {
+   
+    font-family: 'Fjord One', serif;
+	font-size:1.2em;
+    text-decoration:none;
+    color:#828483;
+  
+  }
+
+/* Design: widths, colors, borders, etc...  #66bbcc*/
+.actions-list {
+ margin-left:18.6em;
+ padding-left:10em;
+}
+.actions-list .action-item  {
+    font-size: 1.8em;
+    cursor: pointer;
+    color: #000000;
+    padding-left:52px;
+    line-height:2em;
+    
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    background-image: url(../images/facebook.png);
+}
+
+.google {
+    background-image: url(../images/googleplus.png);
+}
+.linkedin {
+    background-image: url(../images/linkdin.png);
+}
+
+.twitter {
+    background-image: url(../images/twitter.png);
+}
+
+.facebook:hover{
+	
+	background-image: url(../images/facebook_orange.png);	
+	
+}
+.google:hover {
+    background-image: url(../images/googleplus_orange.png);
+}
+.linkedin:hover {
+    background-image: url(../images/linkdin_orange.png);
+}
+
+.twitter:hover {
+    background-image: url(../images/twitter_orange.png);
+}
+#cbp-spmenu-s3
+{
+	
+
+}
+
+ #cbp-spmenu-s3 p
+{
+	
+	
+	margin-top:1em;
+	margin-left:20.6em;
+}
+.phone
+{
+	margin-left:22.6em;
+	
+	
+}
+
+.phone:hover
+{
+	margin-left:22.6em;
+	color:#ff7b3a;
+	font-family: 'Fjord One', serif;
+	
+	
+}
+.email
+{
+margin-left:25.6em;
+line-height:1.6em;	
+font-family: 'Fjord One', serif;
+	font-size:1.5em;
+	
+}
+.email:hover{
+	
+	color:#ff7b3a;
+}
+#info{
+	
+	color: #828483;
+	font-family: 'Fjord One', serif;
+	font-size:1.2em;
+	line-height:1.3em;
+	margin-top:4.3em;
+	margin-left:3.6em;
+	position:center;
+	
+}
+.about_me{
+	
+	position: absolute;
+	margin-top: 3.8em;
+	margin-left: 4.8em;
+	width:300px;
+	height:400px;
+	
+}
+#footer{
+	
+	text-align: center;
+	color:black;
+	
+		line-height:15em;
+}
+.contact{
+	margin-top:6em;
+	position:center;
+	
+	
+}

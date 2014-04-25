@@ -1,0 +1,140 @@
+
+@import url('css/bootstrap.css');
+@import url('css/bootstrap.min.css');
+@import url('css/bootstrap-responsive.min.css');
+
+/*home.css*/
+
+html,body { 
+	background-color:#EBF2F5;
+	
+}
+.brand
+{
+  float:right;
+  height: 30px;
+  width: 40px;
+  margin-top:10px;
+  padding:0.5px;
+}
+.photo
+{
+	width:20px;
+	height:20px; 
+	clear:both;
+	position:relative;
+}
+
+#logo
+{
+	width:220px;
+	height:60px;
+}
+
+li a
+{
+	color:#F2A349;
+	font-size:14px;
+	font-weight:bold;
+
+}
+.logoContainer
+{
+	background-color:#EBF2F5;
+	height:60px;
+}
+#header_navigation 
+{
+	
+	background:#190A45;
+	height:35px;
+	padding-top:2px;
+	padding-bottom:4px;
+
+	
+	
+}
+#header_navigation, #header_navigation ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display:block;
+}
+
+#header_navigation a {
+	font-size:16px;
+	width: 7em;
+}
+
+#header_navigation li {
+
+	width: 10em;
+	
+}
+
+#header_navigation li ul {
+	position: absolute;
+	width: 18em;
+	left: -999em;
+}
+
+#header_navigation li:hover ul {
+	left: auto;
+}
+
+.main_contentainer
+{
+	background:#EBF2F5;
+}
+strong
+{
+	font-size:14px;
+	margin-top:20px;
+}
+
+label.valid {
+	width: 24px;
+	height: 24px;
+	background: url(images/valid.png) center center no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	}
+label.error {
+	font-weight: bold;
+	color: red;
+	padding: 2px 8px;
+	margin-top: 2px;
+	}
+
+
+
+#button
+{
+	
+	margin-right:7em;
+}
+label.control-group {
+ 
+  margin-left:0;
+}
+.controls
+{
+	margin-left:5em;
+}
+.control-label
+  {
+	color:#190A45;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+	font-weight:bold;
+    line-height: 20px;
+}
+		
+
+.id
+{
+	color:red;
+	margin-top:10px;
+	padding-top:15px;
+}
+
